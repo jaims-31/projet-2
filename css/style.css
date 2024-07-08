@@ -1,9 +1,84 @@
 /****** General ***********/
 
  /* HEADER */
-nav { 
-        display: flex
+
+
+img { width: 4%}
+
+
+ul { display:flex;
+    justify-content: flex-end;
+    }
+
+li { display: flex;
+    margin: 0 10px;
 }
+
+h1 { font-size: 15px;}
+
+
+
+
+
+ 
+
+.rechercher {
+  width: 33%;
+  height: 49px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.fa-solid-location {
+  width: 12%;
+  height: 49px;
+  border-radius: 15px 0px 0px 15px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.fa-solid-location .fa-solid {
+  color: black;
+  position: absolute;
+  top: 35%;
+  transform: translate(140%);
+}
+
+
+input {
+  width: 49%;
+  border: solid 1px #f2f2f2;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 35%;
+  height: 49px;
+  background-color: #0065fc;
+  border-radius: 0px 15px 15px 0px;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  border: none;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 0px;
+}
+
+
+
+
 
 
 * {
@@ -32,6 +107,10 @@ body {
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
+    display: grid;
+    gap: 100px
+    
+    
 }
 
 a {
